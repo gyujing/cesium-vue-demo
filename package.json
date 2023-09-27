@@ -8,16 +8,20 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "cesium": "*",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.6.5"
   },
   "devDependencies": {
+    "@open-wc/webpack-import-meta-loader": "^0.4.7",
     "@vue/cli-plugin-babel": "~4.5.19",
     "@vue/cli-plugin-eslint": "~4.5.19",
     "@vue/cli-service": "~4.5.19",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "vue-cli-plugin-cesium": "~1.1.7",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
